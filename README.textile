@@ -121,6 +121,17 @@ On Windows you have to download Ctags and add ctags.exe in your PATH.
 Mac OS X and most Linux distros come with Ruby already. If you're in Windows
 look for Luis Lavena's latest Ruby Installer (http://rubyforge.org/projects/rubyinstaller/)
 
+For enable Ack first you need install the native perl-based plugin:
+
+install in ubuntu: 
+<pre><code>
+  sudo apt-get install ack-grep
+</code></pre>
+install on macosx: 
+<pre><code>
+sudo brew install ack
+</code></pre>
+
 h1. IMPORTANT: Command-T
 
 The latest version replaces the old Fuzzy Finder with a new one called 
