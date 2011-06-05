@@ -13,31 +13,31 @@ let s:cpo_save = &cpo
 set cpo&vim
 
 " Code {{{1
-function! rvm#statusline(...)
+function! rvm#statusline()
   let status = ''
 
   if !empty($rvm_ruby_interpreter)
-    let status = $rvm_ruby_interpreter." ".$rvm_ruby_version
+    let status = $rvm_ruby_interpreter.' '.$rvm_ruby_version
   elseif !empty($rvm_ruby_string)
     " If there is a default ruby $rvm_ruby_interpreter is empty, so fall back
     " to $rvm_ruby_string
     let status = $rvm_ruby_string
   endif
 
-  if !empty($rvm_gemset_name )
-    let status = status."@".$rvm_gemset_name
+  if !empty($rvm_gemset_name)
+    let status = status.'@'.$rvm_gemset_name
   endif
 
   if !empty(status)
-    let status = "[".status."]"
+    let status = '['.status.']'
     return status
   else
-    return ""
+    return ''
   endif
 endfunction
 
 " Only display the ruby version if the filetype is ruby.
-function! rvm#statusline_ft_ruby(...)
+function! rvm#statusline_ft_ruby()
   if &filetype=='ruby'
     return rvm#statusline()
   else
