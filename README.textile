@@ -33,6 +33,8 @@ h1. Bundled Plugins
 * "vim-textobj-rubyblock":http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/ - smart block selection in Ruby code
 * "vividchalk":http://www.vim.org/scripts/script.php?script_id=1891 - color scheme inspired by the classic Vibrant for Textmate
 * "Zencoding":http://www.vim.org/scripts/script.php?script_id=2981 - powerful way for HTML abbreviations (learn here: http://code.google.com/p/zen-coding/). Type abbreviation and press Ctrl+Y+comma (c-y ,)
+* "Jslint":https://github.com/hallettj/jslint.vim - improve your js conding
+* "Gist":https://github.com/mattn/gist-vim - Put and share your code using Gist.github.com 
 
 h1. Usage
 

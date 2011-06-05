@@ -34,10 +34,6 @@
 	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
   ignore = dirty
-[submodule "bundle/hammer"]
-	path = bundle/hammer
-	url = git://github.com/robgleeson/hammer.vim.git
-  ignore = dirty
 [submodule "bundle/vividchalk"]
 	path = bundle/vividchalk
 	url = git://github.com/tpope/vim-vividchalk.git
@@ -137,3 +133,12 @@
 [submodule "bundle/gist"]
   path = "bundle/gist"
   url = git://github.com/mattn/gist-vim.git
+[submodule "bundle/hammer"]
+	path = bundle/hammer
+	url = git://github.com/robgleeson/hammer.vim.git
+[submodule "bundle/jslint.vim"]
+	path = bundle/jslint.vim
+	url = git://github.com/hallettj/jslint.vim.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git://github.com/mattn/gist-vim.git
