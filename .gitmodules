@@ -42,10 +42,6 @@
 	path = bundle/git
 	url = git://github.com/tpope/vim-git.git
   ignore = dirty
-[submodule "bundle/endwise"]
-	path = bundle/endwise
-	url = git://github.com/tpope/vim-endwise.git
-  ignore = dirty
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/akitaonrails/snipmate.vim.git
@@ -73,10 +69,6 @@
 [submodule "bundle/scss-syntax"]
 	path = bundle/scss-syntax
 	url = http://github.com/cakebaker/scss-syntax.vim.git
-  ignore = dirty
-[submodule "bundle/ack"]
-	path = bundle/ack
-	url = git://github.com/mileszs/ack.vim.git
   ignore = dirty
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
@@ -141,3 +133,9 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
+[submodule "bundle/endwise"]
+	path = bundle/endwise
+	url = git://github.com/tpope/vim-endwise.git
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = git://github.com/mileszs/ack.vim.git
