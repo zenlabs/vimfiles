@@ -139,3 +139,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/fecompressor"]
+	path = bundle/fecompressor
+	url = git://github.com/yakushevsky/fecompressor.vim.git
