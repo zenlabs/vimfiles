@@ -51,8 +51,8 @@ hi Cursor                    guifg=#000000 ctermfg=0     guibg=#FFFFFF ctermbg=1
 hi CursorLine                guibg=#333333 guifg=NONE
 hi CursorCol                 guibg=#333333 guifg=NONE
 hi StatusLine                guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=153 cterm=bold
-hi StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey
-hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White
+hi StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=233   ctermbg=237 cterm=none
+hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=237   ctermbg=237 cterm=none
 
 hi Comment                   guifg=#BC9458 ctermfg=180 gui=italic
 hi Constant                  guifg=#6D9CBE ctermfg=73
@@ -80,7 +80,7 @@ hi link diffRemoved          Type
 hi link diffLine             PreProc
 hi link diffSubname          Comment
 
-hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=71
+hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=59
 hi DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=52
 hi Special                   guifg=#DA4939 ctermfg=167
 
@@ -105,7 +105,7 @@ hi mailSubject               guifg=#A5C261 ctermfg=107
 hi mailHeaderKey             guifg=#FFC66D ctermfg=221
 hi mailEmail                 guifg=#A5C261 ctermfg=107 gui=italic cterm=underline
 
-hi SpellBad                  guifg=NONE ctermfg=160 ctermbg=NONE cterm=underline
+hi SpellBad                  guifg=#D70000 ctermfg=160 ctermbg=NONE cterm=underline
 hi SpellRare                 guifg=#D75F87 ctermfg=168 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellCap                  guifg=#D0D0FF ctermfg=189 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi MatchParen                guifg=#FFFFFF ctermfg=15 guibg=#005f5f ctermbg=23
@@ -115,7 +115,7 @@ hi WildMenu                  guifg=Black   guibg=#ffff00 gui=bold cterm=bold
 hi Directory                 none
 hi link Directory            Identifier
 
-hi Folded                    guifg=#F6F3E8 guibg=#2b2b2b gui=NONE ctermbg=238 ctermfg=White cterm=NONE
+hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE ctermbg=238 ctermfg=White cterm=NONE
 hi FoldColumn                none
 hi link FoldColumn           Folded
 
