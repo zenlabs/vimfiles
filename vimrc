@@ -421,3 +421,16 @@ let g:user_zen_settings = {
   \  },
  \}
 
+" ATTENTION!!!!!!!!!!!
+" Disabled backup files
+set nobackup
+set nowritebackup
+set noswapfile
+
+
+if exists(":Tabularize")
+  nmap <Leader>ta= :Tabularize /=<CR>
+  vmap <Leader>ta= :Tabularize /=<CR>
+  nmap <Leader>ta: :Tabularize /:\zs<CR>
+  vmap <Leader>ta: :Tabularize /:\zs<CR>
+endif
