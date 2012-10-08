@@ -2,10 +2,6 @@
 	path = snippets
 	url = git://github.com/asux/snipmate-snippets.git
   ignore = dirty
-[submodule "bundle/rails"]
-	path = bundle/rails
-	url = git://github.com/tpope/vim-rails.git
-  ignore = dirty
 [submodule "bundle/cucumber"]
 	path = bundle/cucumber
 	url = git://github.com/tpope/vim-cucumber.git
@@ -61,10 +57,6 @@
 [submodule "bundle/textile"]
 	path = bundle/textile
 	url = git://github.com/timcharper/textile.vim.git
-  ignore = dirty
-[submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
   ignore = dirty
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
