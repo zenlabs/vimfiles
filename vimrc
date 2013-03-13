@@ -209,6 +209,8 @@ set sidescroll=1
 filetype plugin on
 filetype indent on
 
+autocmd Filetype html,xml,javascript setlocal ts=2 sts=2 sw=2
+
 "turn on syntax highlighting
 syntax on
 
@@ -239,7 +241,7 @@ if has("gui_running")
     endif
 
     if has("gui_mac") || has("gui_macvim")
-        set guifont=Menlo:h14
+        set guifont=Source\ Code\ Pro\ Medium:h12/
         " key binding for Command-T to behave properly
         " uncomment to replace the Mac Command-T key to Command-T plugin
         "macmenu &File.New\ Tab key=<nop>
